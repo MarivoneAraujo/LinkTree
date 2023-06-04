@@ -12,7 +12,7 @@ import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import ArrowRightIcon from "@mui/icons-material/ArrowRight";
 import "./linksCards.css";
 
-import { FaGithub, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { Link } from "@mui/material";
 
 const StyledTreeItemRoot = styled(TreeItem)(({ theme }) => ({
@@ -90,6 +90,11 @@ StyledTreeItem.propTypes = {
 };
 
 export default function LinksCards() {
+  const handleClick = (event) => {
+    event.preventDefault();
+    window.location = "mailto:marivone.vieira@gmail.com";
+  };
+  
   return (
     <TreeView
       aria-label="gmail"
@@ -99,9 +104,9 @@ export default function LinksCards() {
       defaultEndIcon={<div style={{ width: 24 }} />}
     >
       <Link
-        to="javascript:void(0)"
-        onClick={() => (window.location = "mailto:marivone.vieira@gmail.com")}
+        onClick={handleClick}
         target="_blank"
+        rel="noreferrer"
         className="Link"
         data-testid="email-link"
       >
@@ -115,6 +120,7 @@ export default function LinksCards() {
         <a
           href="https://pt.linkedin.com/in/marivone-vieira-araujo"
           target="_blank"
+          rel="noreferrer"
           className="Link"
           data-testid="linkedin-link"
         >
@@ -129,6 +135,7 @@ export default function LinksCards() {
         <a
           href="https://www.instagram.com/mothercoder/"
           target="_blank"
+          rel="noreferrer"
           className="Link"
           data-testid="instagram-link"
         >
@@ -144,6 +151,7 @@ export default function LinksCards() {
         <a
           href="https://medium.com/@marivone.vieira"
           target="_blank"
+          rel="noreferrer"
           className="Link"
           data-testid="medium-link"
         >
@@ -159,6 +167,7 @@ export default function LinksCards() {
         <a
           href="https://github.com/MarivoneAraujo"
           target="_blank"
+          rel="noreferrer"
           className="Link"
           data-testid="github-link"
         >
@@ -175,6 +184,7 @@ export default function LinksCards() {
       <a
         href="https://medium.com/@marivone.vieira"
         target="_blank"
+        rel="noreferrer"
         className="Link"
       >
         <StyledTreeItem nodeId="4" labelText="History" labelIcon={Label} />
