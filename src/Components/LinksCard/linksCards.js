@@ -112,11 +112,11 @@ export default function LinksCards() {
       >
         <StyledTreeItem
           nodeId="1"
-          labelText="Meu e-mail"
+          labelText="My e-mail"
           labelIcon={MailIcon}
         />
       </Link>
-      <StyledTreeItem nodeId="3" labelText="Outras opções" labelIcon={Label}>
+      <StyledTreeItem nodeId="3" labelText="Other options" labelIcon={Label}>
         <a
           href="https://pt.linkedin.com/in/marivone-vieira-araujo"
           target="_blank"
@@ -157,7 +157,7 @@ export default function LinksCards() {
         >
           <StyledTreeItem
             nodeId="7"
-            labelText="Leia no Medium"
+            labelText="Read at Medium"
             labelIcon={ForumIcon}
             color="#a250f5"
             bgColor="#f3e8fd"
@@ -173,7 +173,7 @@ export default function LinksCards() {
         >
           <StyledTreeItem
             nodeId="8"
-            labelText="Meu Github"
+            labelText="My Github"
             labelIcon={FaGithub}
             color="#3c8039"
             bgColor="#e6f4ea"

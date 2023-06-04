@@ -24,7 +24,7 @@ test('renders texts in the App component', () => {
   });
 
   const subtitle = queryAllByText("These are all the links where you can find me:");
-  const footer = queryAllByText("@2023 Marivone Araujo - Criado com React/JS, Material UI and React Testing Library");
+  const footer = queryAllByText("@2023 Marivone Araujo - Created w React/JS, MUI & React Testing Library");
 
 
   expect(headerTexts.length).toBeGreaterThan(0);

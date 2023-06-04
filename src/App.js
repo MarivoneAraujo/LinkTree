@@ -19,8 +19,7 @@ function App() {
         </section>
       </header>
       <section className="App-footer">
-       <p className="App-text-footer">@2023 Marivone Araujo - Criado com React/JS, MUI and React
-        Testing Library</p> 
+       <p className="App-text-footer">@2023 Marivone Araujo - Created w React/JS, MUI & React Testing Library</p> 
       </section>
     </div>
   );
