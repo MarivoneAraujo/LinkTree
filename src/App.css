@@ -19,6 +19,11 @@
   color: white;
 }
 
+.App-text-header{
+  background-color:#61dafb;
+  width: 360px;
+  padding: 5px 0 5px 0;
+}
 .App-link {
   color: #61dafb;
 }
@@ -39,9 +44,11 @@
   justify-content: center;
 }
 
+
+
 .App-text-footer {
   color: aliceblue;
-  background-color: darkslateblue;
+  background-color:purple;
   width: 360px;
   padding: 5px 0 5px 0;
 }

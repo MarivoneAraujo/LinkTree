@@ -12,7 +12,7 @@ function App() {
           <Title>
             Hey! I'm Marivone, the <b>@mothercoder!</b>
           </Title>
-          <Title> These are all the links where you can find me:</Title>
+          <Title className="App-text-header"> These are all the links where you can find me:</Title>
         </TitleBlock>
         <section className="App-LinksCard-Position">
           <LinksCard />
