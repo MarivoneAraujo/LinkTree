@@ -182,7 +182,7 @@ export default function LinksCards() {
       </StyledTreeItem>
 
       <a
-        href="https://medium.com/@marivone.vieira"
+        href="https://www.instagram.com/p/CllhKJku0xW/?img_index=1"
         target="_blank"
         rel="noreferrer"
         className="Link"
