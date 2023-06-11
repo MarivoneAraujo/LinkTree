@@ -7,12 +7,17 @@ import TreeItem, { treeItemClasses } from "@mui/lab/TreeItem";
 import Typography from "@mui/material/Typography";
 import MailIcon from "@mui/icons-material/Mail";
 import Label from "@mui/icons-material/Label";
-import ForumIcon from "@mui/icons-material/Forum";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import ArrowRightIcon from "@mui/icons-material/ArrowRight";
 import "./linksCards.css";
 
-import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import {
+  FaGithub,
+  FaInstagram,
+  FaLinkedin,
+  FaWhatsapp,
+  FaMedium,
+} from "react-icons/fa";
 import { Link } from "@mui/material";
 
 const StyledTreeItemRoot = styled(TreeItem)(({ theme }) => ({
@@ -94,7 +99,7 @@ export default function LinksCards() {
     event.preventDefault();
     window.location = "mailto:marivone.vieira@gmail.com";
   };
-  
+
   return (
     <TreeView
       aria-label="gmail"
@@ -110,11 +115,7 @@ export default function LinksCards() {
         className="Link"
         data-testid="email-link"
       >
-        <StyledTreeItem
-          nodeId="1"
-          labelText="My e-mail"
-          labelIcon={MailIcon}
-        />
+        <StyledTreeItem nodeId="1" labelText="My e-mail" labelIcon={MailIcon} />
       </Link>
       <StyledTreeItem nodeId="3" labelText="Other options" labelIcon={Label}>
         <a
@@ -158,7 +159,7 @@ export default function LinksCards() {
           <StyledTreeItem
             nodeId="7"
             labelText="Read at Medium"
-            labelIcon={ForumIcon}
+            labelIcon={FaMedium}
             color="#a250f5"
             bgColor="#f3e8fd"
           />
@@ -175,6 +176,21 @@ export default function LinksCards() {
             nodeId="8"
             labelText="My Github"
             labelIcon={FaGithub}
+            color="#3c8039"
+            bgColor="#e6f4ea"
+          />
+        </a>
+        <a
+          href="https://wa.me/5579999055790?text=Oi, Marivone! Estou pensando em mudar de carreira e preciso de sua ajuda! Podemos marcar um horário para conversar?"
+          target="_blank"
+          rel="noreferrer"
+          className="Link"
+          data-testid="whatts-link"
+        >
+          <StyledTreeItem
+            nodeId="9"
+            labelText="WhatsApp"
+            labelIcon={FaWhatsapp}
             color="#3c8039"
             bgColor="#e6f4ea"
           />

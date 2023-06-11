@@ -10,10 +10,12 @@ test("renders the GmailTreeView component", () => {
   const instagramLink = getByTestId("instagram-link");
   const mediumLink = getByTestId("medium-link");
   const githubLink = getByTestId("github-link");
+  const whattsLink = getByTestId("whatts-link");
 
   expect(emailLink).toBeInTheDocument();
   expect(linkedinLink).toBeInTheDocument();
   expect(instagramLink).toBeInTheDocument();
   expect(mediumLink).toBeInTheDocument();
   expect(githubLink).toBeInTheDocument();
+  expect(whattsLink).toBeInTheDocument();
 });

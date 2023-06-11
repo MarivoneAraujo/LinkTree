@@ -1,25 +1,30 @@
 import "./App.css";
 import profilePic from "./../src/utils/images/eu.png";
-import { ProfilePicStyle, Title, TitleBlock } from "./styled";
 import LinksCard from "./Components/LinksCard/linksCards";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <ProfilePicStyle src={profilePic} className="profilePic" alt="logo" />
-        <TitleBlock>
-          <Title>
+        <img src={profilePic} alt="logo" className="ProfilePic-Style" />
+        <div className="Title-Block">
+          <p className="App-text-header">
             Hey! I'm Marivone, the <b>@mothercoder!</b>
-          </Title>
-          <Title className="App-text-header"> These are all the links where you can find me:</Title>
-        </TitleBlock>
+          </p>
+          <p className="App-text">
+            {" "}
+            These are all the links where you can find me:
+          </p>
+        </div>
         <section className="App-LinksCard-Position">
           <LinksCard />
         </section>
       </header>
       <section className="App-footer">
-       <p className="App-text-footer">@2023 Marivone Araujo - Created w React/JS, MUI & React Testing Library</p> 
+        <p className="App-text-footer">
+          @2023 Marivone Araujo - Created w React/JS, MUI & React Testing
+          Library
+        </p>
       </section>
     </div>
   );

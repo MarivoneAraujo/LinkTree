@@ -21,8 +21,22 @@
 
 .App-text-header{
   background-color:#61dafb;
-  width: 360px;
   padding: 5px 0 5px 0;
+  color: #545454;
+}
+
+.App-text{
+  color: #545454;
+}
+
+.TitleBlock{
+  padding: 20px;
+}
+
+.ProfilePic-Style{
+  border: 5px solid white;
+  border-radius: 50%;
+  max-width: 150px;
 }
 .App-link {
   color: #61dafb;
