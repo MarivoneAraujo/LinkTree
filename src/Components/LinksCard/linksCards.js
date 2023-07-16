@@ -115,9 +115,9 @@ export default function LinksCards() {
         className="Link"
         data-testid="email-link"
       >
-        <StyledTreeItem nodeId="1" labelText="My e-mail" labelIcon={MailIcon} />
+        <StyledTreeItem nodeId="1" labelText="Meu e-mail" labelIcon={MailIcon} />
       </Link>
-      <StyledTreeItem nodeId="3" labelText="Other options" labelIcon={Label}>
+      <StyledTreeItem nodeId="3" labelText="Outras opções" labelIcon={Label}>
         <a
           href="https://pt.linkedin.com/in/marivone-vieira-araujo"
           target="_blank"
@@ -158,7 +158,7 @@ export default function LinksCards() {
         >
           <StyledTreeItem
             nodeId="7"
-            labelText="Read at Medium"
+            labelText="Leia no Medium"
             labelIcon={FaMedium}
             color="#a250f5"
             bgColor="#f3e8fd"
@@ -203,7 +203,7 @@ export default function LinksCards() {
         rel="noreferrer"
         className="Link"
       >
-        <StyledTreeItem nodeId="4" labelText="History" labelIcon={Label} />
+        <StyledTreeItem nodeId="4" labelText="Minha história" labelIcon={Label} />
       </a>
     </TreeView>
   );

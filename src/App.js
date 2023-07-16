@@ -1,6 +1,7 @@
 import "./App.css";
 import profilePic from "./../src/utils/images/eu.png";
 import LinksCard from "./Components/LinksCard/linksCards";
+import Button from "./Components/Button/button.js";
 
 function App() {
   return (
@@ -9,11 +10,14 @@ function App() {
         <img src={profilePic} alt="logo" className="ProfilePic-Style" />
         <div className="Title-Block">
           <p className="App-text-header">
-            Hey! I'm Marivone, the <b>@mothercoder!</b>
+            Oiê! Sou Marivone, a <b>@mothercoder!</b>
           </p>
+          <section className="App-button">
+            <Button />
+          </section>
           <p className="App-text">
             {" "}
-            These are all the links where you can find me:
+            Aqui estão todos os links aonde você pode me encontrar:
           </p>
         </div>
         <section className="App-LinksCard-Position">

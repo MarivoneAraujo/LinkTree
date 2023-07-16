@@ -18,12 +18,12 @@ test('renders texts in the App component', () => {
     // Custom text matcher to handle broken up text
     const hasText = (str) => element.textContent.includes(str);
     return (
-      hasText("Hey! I'm Marivone") &&
-      hasText("the @mothercoder!")
+      hasText("Oiê! Sou Marivone,") &&
+      hasText("a @mothercoder!")
     );
   });
 
-  const subtitle = queryAllByText("These are all the links where you can find me:");
+  const subtitle = queryAllByText("Aqui estão todos os links aonde você pode me encontrar:");
   const footer = queryAllByText("@2023 Marivone Araujo - Created w React/JS, MUI & React Testing Library");
 
 
