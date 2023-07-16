@@ -23,7 +23,7 @@ test('renders texts in the App component', () => {
     );
   });
 
-  const subtitle = queryAllByText("Aqui estão todos os links aonde você pode me encontrar:");
+  const subtitle = queryAllByText("Aqui estão todos os meus links:");
   const footer = queryAllByText("@2023 Marivone Araujo - Created w React/JS, MUI & React Testing Library");
 
 

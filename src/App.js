@@ -17,7 +17,7 @@ function App() {
           </section>
           <p className="App-text">
             {" "}
-            Aqui estão todos os links aonde você pode me encontrar:
+            Aqui estão todos os meus links:
           </p>
         </div>
         <section className="App-LinksCard-Position">
