@@ -14,6 +14,15 @@ export default function OutlinedButtons() {
         >
       <Button variant="outlined">Agende sua mentoria!</Button>
       </a>
+      <a
+          href="https://revistacrescer.globo.com/maes-e-pais/carreira/noticia/2023/08/superacao-aprendi-programacao-sozinha-com-gemeos-pequenos-e-autistas-diz-mae.ghtml"
+          target="_blank"
+          rel="noreferrer"
+          className="Link"
+          data-testid="revista-crescer-link"
+        >
+      <Button variant="outlined">Matéria na Revista Crescer!</Button>
+      </a>
     </Stack>
   );
 }
